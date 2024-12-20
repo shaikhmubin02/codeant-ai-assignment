@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ArrowUp, Key, KeyRound } from "lucide-react";
+import { ArrowUp, KeyRound } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 

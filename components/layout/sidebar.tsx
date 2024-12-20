@@ -1,8 +1,5 @@
 "use client";
 
-import { Code2, Cloud, HelpCircle, Settings, MessageCircle, LogOut, X } from "lucide-react";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { SidebarHeader } from "@/components/layout/sidebar-header";
 import { SidebarNav } from "@/components/layout/sidebar-nav";

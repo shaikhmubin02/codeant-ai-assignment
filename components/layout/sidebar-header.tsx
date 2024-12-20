@@ -1,7 +1,5 @@
 "use client";
 
-import { X } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 interface SidebarHeaderProps {
@@ -9,7 +7,7 @@ interface SidebarHeaderProps {
   onClose?: () => void;
 }
 
-export function SidebarHeader({ mobile, onClose }: SidebarHeaderProps) {
+export function SidebarHeader({ mobile }: SidebarHeaderProps) {
   if (mobile) {
     return (
       <div className="flex items-center space-x-2">

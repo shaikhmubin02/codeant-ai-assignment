@@ -1,7 +1,7 @@
 "use client";
 
 import { Select, SelectValue, SelectLabel, SelectItem, SelectContent, SelectGroup, SelectTrigger } from "@radix-ui/react-select";
-import { Code2, Cloud, HelpCircle, Settings, MessageCircle, LogOut, HomeIcon, icons, Phone, ChevronDown, BookText } from "lucide-react";
+import { Code2, Cloud, Settings, LogOut, HomeIcon, Phone, ChevronDown, BookText } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
